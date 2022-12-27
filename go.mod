@@ -1,6 +1,5 @@
 module wojciechsmigielski96/go-memoize
 
-
 go 1.19
 
 require (
