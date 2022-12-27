@@ -4,9 +4,9 @@ There wasn't a decent [memoizer](https://wikipedia.org/wiki/Memoization) for Gol
 
 Dead-simple. Safe for concurrent use.
 
-[![Reference](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/kofalt/go-memoize)
-[![Linter](https://goreportcard.com/badge/github.com/kofalt/go-memoize?style=flat-square)](https://goreportcard.com/report/github.com/kofalt/go-memoize)
-[![Build status](https://github.com/kofalt/go-memoize/workflows/Build/badge.svg)](https://github.com/kofalt/go-memoize/actions)
+[![Reference](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/wojciechsmigielski96/go-memoize)
+[![Linter](https://goreportcard.com/badge/github.com/wojciechsmigielski96/go-memoize?style=flat-square)](https://goreportcard.com/report/github.com/wojciechsmigielski96/go-memoize)
+[![Build status](https://github.com/wojciechsmigielski96/go-memoize/workflows/Build/badge.svg)](https://github.com/wojciechsmigielski96/go-memoize/actions)
 
 ## Project status
 
@@ -22,7 +22,7 @@ Cache expensive function calls in memory, with a configurable timeout and purge 
 import (
 	"time"
 
-	"github.com/kofalt/go-memoize"
+	"github.com/wojciechsmigielski96/go-memoize"
 )
 
 // Any expensive call that you wish to cache
