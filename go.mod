@@ -1,4 +1,4 @@
-module wojciechsmigielski96/go-memoize
+module github.com/wojciechsmigielski96/go-memoize
 
 go 1.19
 
